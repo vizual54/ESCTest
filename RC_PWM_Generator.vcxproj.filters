@@ -21,5 +21,8 @@
     <ClInclude Include="Visual Micro\.RC_PWM_Generator.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Visual Micro\.ESCTest.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

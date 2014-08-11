@@ -44,10 +44,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Development\ArduPilot-Arduino-1.0.3-windows\hardware\arduino\cores\arduino;C:\Development\ArduPilot-Arduino-1.0.3-windows\hardware\arduino\variants\standard;c:\development\ardupilot-arduino-1.0.3-windows\hardware\tools\avr\avr\include\;c:\development\ardupilot-arduino-1.0.3-windows\hardware\tools\avr\avr\include\avr\;c:\development\ardupilot-arduino-1.0.3-windows\hardware\tools\avr\avr\;c:\development\ardupilot-arduino-1.0.3-windows\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Development\RC_PWM_Generator\Visual Micro\.RC_PWM_Generator.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\Arduino\arduino-1.0.5\hardware\arduino\cores\arduino;C:\Arduino\arduino-1.0.5\hardware\arduino\variants\standard;c:\arduino\arduino-1.0.5\hardware\tools\avr\avr\include\;c:\arduino\arduino-1.0.5\hardware\tools\avr\avr\include\avr\;c:\arduino\arduino-1.0.5\hardware\tools\avr\avr\;c:\arduino\arduino-1.0.5\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Development\ESCTest\Visual Micro\.ESCTest.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328P__;ARDUINO=101;ARDUINO_MAIN;__AVR__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328P__;ARDUINO=105;ARDUINO_MAIN;__AVR__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -73,6 +73,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Visual Micro\.ESCTest.vsarduino.h" />
     <ClInclude Include="Visual Micro\.RC_PWM_Generator.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
